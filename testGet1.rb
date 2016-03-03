@@ -14,8 +14,13 @@ conn.basic_auth(username, password)
 #By default, Fedora returns turtle
 response = conn.get '/fcrepo/rest/test' 
 puts '---------Text/Turtle response-----------'
-puts response.body.inspect
+#puts response.body.inspect
 
 response = conn.get '/fcrepo/rest/test', {}, {'Accept' => 'application/rdf+xml'}
 puts '---------XML response-----------'
-puts response.body.inspect
+#puts response.body.inspect
+
+puts '---------Downloading image------'
+response = conn.get '/fcrepo/rest/test/PREVIEW_IMAGE'
+File.open('/var/tmp/image.png', 'wb') { |fp| fp.write(response.body) }
+
