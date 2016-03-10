@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:premis="http://www.loc.gov/premis/rdf/v1#" xmlns:image="http://www.modeshape.org/images/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:test="info:fedora/test/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mode="http://www.modeshape.org/1.0"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:fedora="http://fedora.info/definitions/v4/repository#" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:audit="http://fedora.info/definitions/v4/audit#" xmlns:ebucore="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#" xmlns:ldp="http://www.w3.org/ns/ldp#" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:fedoraconfig="http://fedora.info/definitions/v4/config#" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:authz="http://fedora.info/definitions/v4/authorization#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description rdf:about="http://localhost:8080/fcrepo/rest/test/9f/e7/7f/9f/9fe77f9f-7c09-4a01-a179-3565069f79cf">
+        <rdf:type rdf:resource="http://www.w3.org/ns/ldp#NonRDFSource"/>
+        <rdf:type rdf:resource="http://www.jcp.org/jcr/nt/1.0resource"/>
+        <rdf:type rdf:resource="http://www.jcp.org/jcr/mix/1.0mimeType"/>
+        <rdf:type rdf:resource="http://fedora.info/definitions/v4/repository#Binary"/>
+        <rdf:type rdf:resource="http://fedora.info/definitions/v4/repository#Resource"/>
+        <fedora:lastModifiedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fedoraAdmin</fedora:lastModifiedBy>
+        <premis:hasSize rdf:datatype="http://www.w3.org/2001/XMLSchema#long">152501</premis:hasSize>
+        <ebucore:hasMimeType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image/png</ebucore:hasMimeType>
+        <fedora:createdBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fedoraAdmin</fedora:createdBy>
+        <fedora:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-09T15:02:43.201Z</fedora:created>
+        <premis:hasMessageDigest rdf:resource="urn:sha1:a5e76f87acf601ae5fced9b30db34dd8acd98636"/>
+        <fedora:lastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-09T15:02:43.201Z</fedora:lastModified>
+        <ebucore:filename rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+        <fedora:writable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</fedora:writable>
+        <describedby xmlns="http://www.iana.org/assignments/relation/" rdf:resource="http://localhost:8080/fcrepo/rest/test/9f/e7/7f/9f/9fe77f9f-7c09-4a01-a179-3565069f79cf/fcr:metadata"/>
+        <fedora:hasParent rdf:resource="http://localhost:8080/fcrepo/rest/test"/>
+        <fedora:numberOfChildren rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</fedora:numberOfChildren>
+        <fedora:hasAccessRoles rdf:resource="http://localhost:8080/fcrepo/rest/test%2F9f%2Fe7%2F7f%2F9f%2F9fe77f9f-7c09-4a01-a179-3565069f79cf%2Fjcr:content/fcr:accessroles"/>
+        <fedora:hasFixityService rdf:resource="http://localhost:8080/fcrepo/rest/test/9f/e7/7f/9f/9fe77f9f-7c09-4a01-a179-3565069f79cf/fcr:fixity"/>
+    </rdf:Description>
+</rdf:RDF>
+

@@ -17,6 +17,9 @@ puts '---------Text/Turtle response-----------'
 #puts response.body.inspect
 
 response = conn.get '/fcrepo/rest/test', {}, {'Accept' => 'application/rdf+xml'}
+
+#access data binary file's RDF document
+#response = conn.get '/fcrepo/rest/test/9f/e7/7f/9f/9fe77f9f-7c09-4a01-a179-3565069f79cf/fcr:metadata', {}, {'Accept' => 'application/rdf+xml'}
 puts '---------XML response-----------'
 File.open("/var/tmp/fedora4.xml", 'w') { |file| file.write(response.body.inspect) }
 #puts response.body.inspect
