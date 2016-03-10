@@ -18,6 +18,7 @@ puts '---------Text/Turtle response-----------'
 
 response = conn.get '/fcrepo/rest/test', {}, {'Accept' => 'application/rdf+xml'}
 puts '---------XML response-----------'
+File.open("/var/tmp/fedora4.xml", 'w') { |file| file.write(response.body.inspect) }
 #puts response.body.inspect
 
 puts '---------Downloading image------'

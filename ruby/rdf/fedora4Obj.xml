@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:premis="http://www.loc.gov/premis/rdf/v1#" xmlns:image="http://www.modeshape.org/images/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:test="info:fedora/test/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mode="http://www.modeshape.org/1.0"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:fedora="http://fedora.info/definitions/v4/repository#" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:audit="http://fedora.info/definitions/v4/audit#" xmlns:ebucore="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#" xmlns:ldp="http://www.w3.org/ns/ldp#" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:fedoraconfig="http://fedora.info/definitions/v4/config#" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:authz="http://fedora.info/definitions/v4/authorization#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description rdf:about="http://localhost:8080/fcrepo/rest/test">
+        <rdf:type rdf:resource="http://www.w3.org/ns/ldp#RDFSource"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ldp#Container"/>
+        <rdf:type rdf:resource="http://fedora.info/definitions/v4/repository#Container"/>
+        <rdf:type rdf:resource="http://fedora.info/definitions/v4/repository#Resource"/>
+        <fedora:lastModifiedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fedoraAdmin</fedora:lastModifiedBy>
+        <fedora:createdBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fedoraAdmin</fedora:createdBy>
+        <fedora:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-02T11:35:18.155Z</fedora:created>
+        <fedora:lastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-09T16:08:51.79Z</fedora:lastModified>
+        <fedora:writable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</fedora:writable>
+        <fedora:hasParent rdf:resource="http://localhost:8080/fcrepo/rest/"/>
+        <fedora:numberOfChildren rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</fedora:numberOfChildren>
+        <ldp:contains rdf:resource="http://localhost:8080/fcrepo/rest/test/PREVIEW_IMAGE"/>
+        <ldp:contains rdf:resource="http://localhost:8080/fcrepo/rest/test/e9/b4/38/ee/e9b438ee-8fa5-4b41-a4a3-1985be908570"/>
+        <ldp:contains rdf:resource="http://localhost:8080/fcrepo/rest/test/1f/0c/e3/e5/1f0ce3e5-9004-4ec6-9f34-5ddab11d4368"/>
+        <ldp:contains rdf:resource="http://localhost:8080/fcrepo/rest/test/cc/b7/55/55/ccb75555-89a0-4bae-8057-e971b9cb27c7"/>
+        <ldp:contains rdf:resource="http://localhost:8080/fcrepo/rest/test/30/55/9d/9c/30559d9c-93b4-49fb-bff6-0aac00a1f019"/>
+        <ldp:contains rdf:resource="http://localhost:8080/fcrepo/rest/test/b1/74/3d/7d/b1743d7d-c23d-4a82-a4e2-6cd5e4a07438"/>
+        <ldp:contains rdf:resource="http://localhost:8080/fcrepo/rest/test/d4/3d/0f/27/d43d0f27-7187-4ef8-bad4-7493bcb54aad"/>
+        <ldp:contains rdf:resource="http://localhost:8080/fcrepo/rest/test/75/a1/31/2c/75a1312c-f21b-4a4e-8b4a-e2ec55d0883e"/>
+        <ldp:contains rdf:resource="http://localhost:8080/fcrepo/rest/test/a4/f8/5e/ca/a4f85eca-82f8-4810-9c7d-cf43c8285e93"/>
+        <ldp:contains rdf:resource="http://localhost:8080/fcrepo/rest/test/d8/5c/15/6c/d85c156c-8138-4a75-8be0-9a9747466141"/>
+        <ldp:contains rdf:resource="http://localhost:8080/fcrepo/rest/test/de/dc/a4/7a/dedca47a-4e35-4509-acef-d6f166c2d04b"/>
+        <ldp:contains rdf:resource="http://localhost:8080/fcrepo/rest/test/9f/e7/7f/9f/9fe77f9f-7c09-4a01-a179-3565069f79cf"/>
+        <ldp:contains rdf:resource="http://localhost:8080/fcrepo/rest/test/a0/31/b0/6f/a031b06f-5f82-4c2b-b08f-0a0caf71d588"/>
+        <ldp:contains rdf:resource="http://localhost:8080/fcrepo/rest/test/ef/2b/30/58/ef2b3058-d44e-43e3-bafc-9285f2af1610"/>
+        <fedora:hasAccessRoles rdf:resource="http://localhost:8080/fcrepo/rest/test/fcr:accessroles"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://localhost:8080/fcrepo/rest/test/fcr:export?format=jcr/xml">
+        <dc:format rdf:resource="http://fedora.info/definitions/v4/repository#jcr/xml"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://localhost:8080/fcrepo/rest/test">
+        <fedora:exportsAs rdf:resource="http://localhost:8080/fcrepo/rest/test/fcr:export?format=jcr/xml"/>
+    </rdf:Description>
+</rdf:RDF>
+
